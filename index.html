@@ -3,26 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Welcome to Barcenas Tech</title>
+    <meta name="description" content="Professional IT Consulting Services for Businesses of All Sizes">
+    <meta name="author" content="Barcenas Tech">
+    <title>Barcenas Tech - IT Consulting Services</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .main-container {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        h2 {
+            color: #333;
+        }
+        .contact-form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .contact-form button {
+            background-color: #333;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #555;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Welcome to Barcenas Tech</h1>
-        <p>Your trusted partner for IT Consulting Services</p>
-    </header>
-    <main>
-        <section>
-            <h2>About Us</h2>
-            <p>At Barcenas Tech, we provide cutting-edge IT consulting services to help businesses streamline their operations and achieve success. Whether you're looking for cloud solutions, network management, or cybersecurity services, we’ve got you covered.</p>
-        </section>
-        <section>
-            <h2>Contact Us</h2>
-            <p>If you have any questions or would like to inquire about our services, please <a href="mailto:contact@barcenas.tech">email us</a>.</p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2024 Barcenas Tech. All Rights Reserved.</p>
-    </footer>
+
+<header>
+    <h1>Welcome to Barcenas Tech</h1>
+    <p>Your trusted partner for IT consulting services</p>
+</header>
+
+<div class="main-container">
+    <section id="about-us">
+        <h2>About Us</h2>
+        <p>At Barcenas Tech, we provide innovative IT solutions to businesses of all sizes. Our team specializes in network management, system security, cloud solutions, and more. With years of experience, we help you streamline operations and secure your data, so you can focus on what really matters—growing your business.</p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li><strong>Network Infrastructure:</strong> Design, installation, and management of secure, reliable networks.</li>
+            <li><strong>Cloud Solutions:</strong> Seamless integration of cloud platforms for data storage and collaboration.</li>
+            <li><strong>Cybersecurity:</strong> Protecting your business from digital threats with proactive security strategies.</li>
+            <li><strong>IT Support:</strong> Ongoing support and troubleshooting to ensure your systems run smoothly.</li>
+            <li><strong>Consulting & Strategy:</strong> Strategic IT planning to align technology with your business goals.</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or need a consultation? Reach out to us and we’ll get back to you as soon as possible.</p>
+        <form class="contact-form" action="mailto:info@barcenas.tech" method="post" enctype="text/plain">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Barcenas Tech. All rights reserved.</p>
+</footer>
+
 </body>
 </html>
